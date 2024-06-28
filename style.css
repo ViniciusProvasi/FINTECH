@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('imagem/tendencia-do-mercado-de-negocios-1-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #18181994,#4563a400);
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+nav div{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.logo{
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(to bottom, #004AAD,#1c5be246);
+  box-shadow: 0 0 20px 0 darkgrey;
+  border-radius: 15px;
+}
+
+nav div a {
+  color: white;
+  text-decoration:none;
+  padding: 10px;
+}
+
+nav div a:hover {
+  color: #7291e6;
+  padding: 10px;
+}
+
+nav div button{
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.768);
+ 
+}
+
+nav div button:hover{
+  padding: 15px 20px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #1e72e694,#0642c6);
+  border-radius: 15px;
+  color: white;
+  border-color: 1px white;
+  box-shadow: 0 0 20px 0 rgba(169, 169, 169, 0.341);
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 6px;
+  width: 350px;
+  height: 490px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 darkgrey;
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: .5s;
+  width: 300px;
+  height: 400px;
+}
+
+.buttonsForm {
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 #233f8e;
+  background: linear-gradient(to bottom, #1e72e694,#0642c6);
+}
+
+.buttonsForm button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 15px 26.5px;
+  color: white;
+}
+
+.btnColor {
+  position: absolute;
+  width: 108px;
+  height: 100%;
+  border-radius: 30px;
+  transition: .3s;
+  background: linear-gradient(to bottom, #233f8e,#4716cf);
+}
+
+input[type="text"], input[type="password"] {
+  border: none;
+  margin-top: 40px;
+  border-radius: 60px;
+  padding: 9px 0 8px 35px;
+  outline: none;
+  width: 100%;
+  height: 12%;
+  
+}
+
+button[type="submit"] {
+  background: linear-gradient(to bottom, #1e72e694,#0642c6);
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 14%;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.divCheck {
+  margin: 19px 0 0 5px;
+  width: 80%;
+  font-size: 13px;
+}
+
+#Entrar {
+  left: 30px;
+    
+}
+
+#Cadastrar {
+  left: 450px;
+  
+}
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 10px 10px;
+  color: #233f8e;
+}
+
+.iEmail {
+  top: 47px;
+}
+
+.iPassword {
+  top: 134px;
+}
+
+.iPassword2 {
+  top: 221px;
+}
